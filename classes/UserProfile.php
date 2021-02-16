@@ -1,5 +1,5 @@
 <?php
-include_once __DIR__ . '/UserDetails.php';
+include_once __DIR__ . '/UserProfile.php';
 
 class UserProfile extends User{
     public $nome;
@@ -16,5 +16,7 @@ class UserProfile extends User{
     }
 
 }
+
+
 
 ?>
